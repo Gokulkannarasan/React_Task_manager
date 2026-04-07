@@ -12,7 +12,8 @@ const app=express();
 
 
 app.use(cors({
-  origin: "https://react-task-manager-lilac.vercel.app"
+  origin: "https://react-task-manager-cp28rhhku-gokulkannarasan5-9127s-projects.vercel.app",
+  credentials: true
 }));
 app.use(express.json());
 app.use("/api/tasks",taskRoutes);
