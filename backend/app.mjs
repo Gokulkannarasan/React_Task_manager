@@ -10,10 +10,8 @@ dotenv.config();
 const app=express();
 //app.use(cors());
 
-
 app.use(cors({
-  origin: "https://react-task-manager-b6gq093ei-gokulkannarasan5-9127s-projects.vercel.app",
-  credentials: true
+  origin: "*"
 }));
 app.use(express.json());
 app.use("/api/tasks",taskRoutes);
