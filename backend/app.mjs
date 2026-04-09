@@ -12,7 +12,7 @@ const app=express();
 
 
 app.use(cors({
-  origin: "https://react-task-manager-cp28rhhku-gokulkannarasan5-9127s-projects.vercel.app",
+  origin: "https://react-task-manager-b6gq093ei-gokulkannarasan5-9127s-projects.vercel.app",
   credentials: true
 }));
 app.use(express.json());
